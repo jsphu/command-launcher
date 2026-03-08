@@ -1,0 +1,18 @@
+# Command Launcher Configuration
+#
+# Instructions:
+# - default_timeout: The default timeout in seconds for any command.
+# - whitelist: A dictionary mapping command keywords to their additional timeout.
+#   - If the value is an integer (e.g., 10), it will be added to the default_timeout.
+#   - If the value is null, it means no timeout (infinite).
+#
+# Example:
+#   "my_command": 60  -> adds 60 seconds to default_timeout
+#   "long_running": null -> infinite timeout
+#
+# Add your own keywords here:
+
+default_timeout: 2
+# whitelist:
+#   "curl": None  # do not interrupt curl
+#   "wget": 60
