@@ -14,5 +14,5 @@
 
 default_timeout: 2
 # whitelist:
-#   "curl": None  # do not interrupt curl
+#   "curl": null  # do not interrupt curl
 #   "wget": 60
